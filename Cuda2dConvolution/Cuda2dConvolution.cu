@@ -111,7 +111,7 @@ for (int y = 0; y < input_height; ++y)
 // Save the output image
 
     // Write image back to disk
-    printf("Writing png to disk...\r\n")
+    printf("Writing png to disk...\r\n");
     stbi_write_png("output_image.png", input_width, input_height, 1, h_output_image, input_width);
 	printf("DONE");
 
