@@ -7,10 +7,6 @@
 #include "stb_image.h"
 #include "stb_image_write.h"
 
-#define MULTIPLIER 4 
-#define DEBUG_PRINT 0
-#define INFO_PRINT 0
-
 struct Pixel
 {
 	unsigned char r, g, b, a;
